@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2236b6a5-0c19-4f6e-98e8-422f13e45537",
+		"_postman_id": "bb877e2f-db1c-4167-be3d-9ff3fc13433b",
 		"name": "spmia-example-2.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -1503,51 +1503,6 @@
 					"response": []
 				},
 				{
-					"name": "Get user info",
-					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "e8b20863-60af-4adb-a663-e1de2ae08580",
-									"type": "string"
-								}
-							]
-						},
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer e8b20863-60af-4adb-a663-e1de2ae08580",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
-						"url": {
-							"raw": "http://13.125.42.205:5555/api/auth/auth/user",
-							"protocol": "http",
-							"host": [
-								"13",
-								"125",
-								"42",
-								"205"
-							],
-							"port": "5555",
-							"path": [
-								"api",
-								"auth",
-								"auth",
-								"user"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "Figure 7-2 ROLE_USER POST /auth/oauth/token",
 					"request": {
 						"auth": {
@@ -1614,7 +1569,7 @@
 					"response": []
 				},
 				{
-					"name": "Get organization info with user role user",
+					"name": "Get user info",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -1622,6 +1577,51 @@
 								{
 									"key": "token",
 									"value": "e8b20863-60af-4adb-a663-e1de2ae08580",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer e8b20863-60af-4adb-a663-e1de2ae08580",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://13.125.42.205:5555/api/auth/auth/user",
+							"protocol": "http",
+							"host": [
+								"13",
+								"125",
+								"42",
+								"205"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"auth",
+								"auth",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get organization info with user role user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "df0322a4-e150-4408-8964-2ed58c1862d1",
 									"type": "string"
 								}
 							]
@@ -1728,7 +1728,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "e864f3bf-2371-4714-a72d-9165d3714a65",
+									"value": "dff858fa-c09c-47d3-a509-5c3e33c80482",
 									"type": "string"
 								}
 							]
@@ -1769,6 +1769,28 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "1ada2d85-9677-49df-929c-d362ec6d76ae",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "02fc8e38-019d-466e-a686-a21e202a188a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }

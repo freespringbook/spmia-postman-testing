@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "bb877e2f-db1c-4167-be3d-9ff3fc13433b",
+		"_postman_id": "e931fb76-2287-416a-b8f7-58f8d9cd4615",
 		"name": "spmia-example-2.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -1456,13 +1456,13 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/actuator/routes",
+							"raw": "http://13.125.174.58:5555/actuator/routes",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1483,13 +1483,13 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/configserver/authenticationservice/aws-dev",
+							"raw": "http://13.125.174.58:5555/api/configserver/authenticationservice/aws-dev",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1548,13 +1548,13 @@
 							]
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/auth/auth/oauth/token",
+							"raw": "http://13.125.174.58:5555/api/auth/auth/oauth/token",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1594,13 +1594,13 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/auth/auth/user",
+							"raw": "http://13.125.174.58:5555/api/auth/auth/user",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1633,13 +1633,13 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/organization/v1/organizations/e254f8c-c442-4ebe-a82a-e2fc1d1ff78a/",
+							"raw": "http://13.125.174.58:5555/api/organization/v1/organizations/e254f8c-c442-4ebe-a82a-e2fc1d1ff78a/",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1700,13 +1700,13 @@
 							]
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/auth/auth/oauth/token",
+							"raw": "http://13.125.174.58:5555/api/auth/auth/oauth/token",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
@@ -1746,13 +1746,13 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://13.125.42.205:5555/api/licensing/v1/organizations/e254f8c-c442-4ebe-a82a-e2fc1d1ff78a/licenses/",
+							"raw": "http://13.125.174.58:5555/api/licensing/v1/organizations/e254f8c-c442-4ebe-a82a-e2fc1d1ff78a/licenses/",
 							"protocol": "http",
 							"host": [
 								"13",
 								"125",
-								"42",
-								"205"
+								"174",
+								"58"
 							],
 							"port": "5555",
 							"path": [
